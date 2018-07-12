@@ -9,4 +9,4 @@ export {
     searchPageSelectors
 }
 
-export { default as SearchPage } from './components/searchBar';
+export { default as SearchPage } from './SearchPage';

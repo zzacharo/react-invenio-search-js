@@ -4,7 +4,7 @@ import thunk from 'redux-thunk';
 import { createLogger } from 'redux-logger';
 /* eslint-disable import/no-extraneous-dependencies */
 
-import http from './common/http';
+import http from './modules/core/http';
 import { searchPageReducer } from './modules/searchPage';
 
 export const thunkMiddleware = thunk.withExtraArgument(http);

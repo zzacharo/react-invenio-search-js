@@ -1,5 +1,5 @@
 import { SEARCH_REQUEST, SEARCH_ERROR, SEARCH_SUCCESS } from './actionTypes';
-import http from '../../common/http';
+import http from '../core/http';
 
 function searching(query) {
     return {
